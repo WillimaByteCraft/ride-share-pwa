@@ -10,11 +10,13 @@ function Homepage() {
             <h1 className="text-2xl text-white font-bold">Hello Conrad, </h1>
             <h2 className="text-white">where do you want to go?</h2>
           </div>
-          <span className="bg-slate-500 bg-[url('user-96.png')] bg-cover bg-no-repeat bg-center rounded-full p-8"></span>
+          <span className="bg-slate-500  rounded-full p-8">
+            <img src="user-96.png" className="object-cover object-no-repeat object-center" />
+          </span>
         </div>
         <div className="w-screen p-5">
-          <div onClick={() => navigate('/map')} className="w-full h-[18vh] bg-[url('map-icon.jpg')] bg-cover bg-no-repeat bg-center rounded-2xl bg-gray-200">
-             
+          <div onClick={() => navigate('/map')} className="w-full h-[18vh]  rounded-2xl bg-gray-200">
+             <img src="map-icon.jpg" alt="map" className='object-cover object-no-repeat object-center' />
           </div>
           <div className="flex w-full">
             <div onClick={() => navigate('/map')} className="w-1/3 h-[12vh] rounded-2xl bg-yellow-200 m-2 flex items-center justify-center">
