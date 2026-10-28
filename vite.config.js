@@ -22,14 +22,14 @@ export default defineConfig({
         start_url: '/ride-share-pwa/',
         icons: [
           {
-            src: 'app-icon-192.jpg', // Replace with a 192x192 icon if you have one later
+            src: 'app-icon-192.png', // Replace with a 192x192 icon if you have one later
             sizes: '192x192',
-            type: 'image/jpg'
+            type: 'image/png'
           },
           {
-            src: 'app-icon-512.jpg', // Replace with a 512x512 icon if you have one later
+            src: 'app-icon-512.png', // Replace with a 512x512 icon if you have one later
             sizes: '512x512',
-            type: 'image/jpg'
+            type: 'image/png'
           }
         ]
       }
