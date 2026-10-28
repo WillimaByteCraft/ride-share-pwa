@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ride-share-pwa/sw.js', { scope: '/ride-share-pwa/' })})}
