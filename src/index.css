@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Hide the Mapbox logo */
+.mapboxgl-ctrl-logo {
+    display: none !important;
+}
+
+/* Hide the Mapbox attribution info text */
+.mapboxgl-ctrl-attrib {
+    display: none !important;
+}
